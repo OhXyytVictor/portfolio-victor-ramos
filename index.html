@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Victor Ramos | Portfolio de Dados</title>
+<style>
+  :root { --bg:#0b0f17; --card:#141c28; --border:#233044; --text:#e2e8f0; --muted:#94a3b8; --accent:#2563eb; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.5; padding:48px 20px; }
+  .wrap { max-width:960px; margin:0 auto; }
+  h1 { font-size:1.8rem; color:#fff; }
+  .sub { color:var(--muted); margin:6px 0 32px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:8px; padding:22px; display:flex; flex-direction:column; gap:10px; }
+  .card h2 { font-size:1.05rem; color:#fff; }
+  .card p { font-size:.88rem; color:var(--muted); flex:1; }
+  .tags { font-size:.74rem; color:#60a5fa; }
+  .links a { display:inline-block; margin-right:10px; font-size:.82rem; color:#fff; background:var(--accent); padding:6px 12px; border-radius:5px; text-decoration:none; }
+  .links a.sec { background:transparent; border:1px solid var(--border); color:var(--text); }
+  footer { margin-top:40px; font-size:.8rem; color:var(--muted); border-top:1px solid var(--border); padding-top:16px; }
+  footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Victor Ramos</h1>
+  <p class="sub">Engenharia e analise de dados | Jogos Digitais | PostgreSQL, Python, SQL e dashboards interativos</p>
+  <div class="grid">
+    <div class="card">
+      <h2>E-commerce Gamer (Olist)</h2>
+      <p>Pipeline ETL, modelagem relacional, KPIs de vendas e logistica, visao prescritiva e testes de qualidade de dados.</p>
+      <div class="tags">Python | PostgreSQL | RFM | Window Functions</div>
+      <div class="links"><a href="https://ohxyytvictor.github.io/olist-ecommerce-analytics/">Dashboard</a><a class="sec" href="https://github.com/OhXyytVictor/olist-ecommerce-analytics">Repositorio</a></div>
+    </div>
+    <div class="card">
+      <h2>Dados Publicos do Brasil</h2>
+      <p>Ingestao da API do Banco Central (IPCA, Selic, dolar) e series temporais de 2000 a 2026.</p>
+      <div class="tags">REST API | Series temporais | PostgreSQL</div>
+      <div class="links"><a class="sec" href="https://github.com/OhXyytVictor/dados-publicos-brasil">Repositorio</a></div>
+    </div>
+    <div class="card">
+      <h2>Estudio Indie de Games</h2>
+      <p>Diagnostico financeiro de 24 meses: P&amp;L por titulo, burn rate, runway, destrinchamento de gastos e simulador.</p>
+      <div class="tags">P&amp;L | Burn rate | Filtros interativos</div>
+      <div class="links"><a href="https://ohxyytvictor.github.io/indie-game-studio-analytics/">Dashboard</a><a class="sec" href="https://github.com/OhXyytVictor/indie-game-studio-analytics">Repositorio</a></div>
+    </div>
+  </div>
+  <footer>
+    <a href="https://www.linkedin.com/in/victorramosbraga">LinkedIn</a> | jsvramos@live.com
+  </footer>
+</div>
+</body>
+</html>
